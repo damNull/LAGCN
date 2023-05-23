@@ -103,5 +103,20 @@ This repo is based on [2s-AGCN](https://github.com/lshiwjx/2s-AGCN). The data pr
 
 Thanks to the original authors for their work!
 
+# Citation
+
+Please cite this work if you find it useful:
+```
+@article{xu2023language,
+      title={Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition}, 
+      author={Haojun Xu and Yan Gao and Zheng Hui and Jie Li and Xinbo Gao},
+      year={2023},
+      primaryClass={cs.CV},
+      journal={CoRR},
+      volume={abs/2305.12398},
+      url={https://arxiv.org/abs/2305.12398}
+}
+```
+
 # Contact
 For any questions, feel free to contact: `damnull@outlook.com`
