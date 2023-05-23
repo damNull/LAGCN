@@ -1,6 +1,16 @@
 # LA-GCN
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-knowledge-assisted-representation/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=language-knowledge-assisted-representation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-knowledge-assisted-representation/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=language-knowledge-assisted-representation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-knowledge-assisted-representation/skeleton-based-action-recognition-on-n-ucla)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-n-ucla?p=language-knowledge-assisted-representation)
+
 Code for LAGCN
+
+> **[Language Knowledge-Assisted Representation Learning for Skeleton-Based Action Recognition](https://arxiv.org/abs/2305.12398)**
+>
+> Haojun Xu, Yan Gao, Zheng Hui, Jie Li, Xinbo Gao
+> 
+> *[arXiv 2305.12398](https://arxiv.org/abs/2305.12398)*
 
 ## Data Preparation
 
