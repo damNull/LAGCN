@@ -27,7 +27,7 @@ test_feeder_args:
   debug: False
 
 # model
-model: model.uctrk0rgcn_lgloss.Model
+model: model.lagcn.Model
 model_args:
   num_class: 60
   num_point: 25

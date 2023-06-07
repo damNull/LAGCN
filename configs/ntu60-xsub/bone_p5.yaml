@@ -29,7 +29,7 @@ test_feeder_args:
   bone_link: ntu120_cls_prompt5_dist_avg_min_std_pairs
 
 # model
-model: model.uctrk0rgcn_lgloss.Model
+model: model.lagcn.Model
 model_args:
   num_class: 60
   num_point: 25
