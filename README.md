@@ -12,6 +12,14 @@ Code for LAGCN
 > 
 > *[arXiv 2305.12398](https://arxiv.org/abs/2305.12398)*
 
+## TODO List
+
+* [ ] Upload NW-UCLA configs
+* [ ] Add ensemble code
+* [ ] Upload pretrained weights
+* [ ] Add code of generating CPR graph (loss relevant)
+* [ ] Add code of generating GPR graph (input data relevant)
+
 ## Data Preparation
 
 ### Download datasets.
