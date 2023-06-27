@@ -1,1 +1,4 @@
 *.pyc
+# dataset files
+data/ntu/*.npz
+data/ntu120/*.npz
