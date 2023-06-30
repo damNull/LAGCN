@@ -14,9 +14,9 @@ Code for LAGCN
 
 ## TODO List
 
-* [ ] Upload NW-UCLA configs
-* [ ] Add ensemble code
-* [ ] Upload pretrained weights
+* [x] Upload NW-UCLA configs
+* [x] Add ensemble code
+* [x] Upload pretrained weights
 * [ ] Add code of generating CPR graph (loss relevant)
 * [ ] Add code of generating GPR graph (input data relevant)
 
@@ -94,7 +94,7 @@ python main.py --config configs/ntu120-xsub/joint.yaml --work-dir work_dir/ntu12
 
 ```
 # Example: training your own model on NTU RGB+D 120 cross subject
-python main.py --config config/ntu120-xsub/joint.yaml --model model.your_model.Model --work-dir work_dir/ntu120/csub/your_model --device 0
+python main.py --config config/ntu120-xsub/joint.yaml --model model.your_model.Model --work-dir work_dir/ntu120/xsub/your_model --device 0
 ```
 
 ### Testing
@@ -108,12 +108,17 @@ python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase tes
 - To ensemble the results of different modalities, run 
 ```
 # Example: ensemble four modalities of LAGCN on NTU RGB+D 120 cross subject
-python ensemble.py --datasets ntu120/xsub --joint-dir work_dir/ntu120/csub/lagcn --bone-dir work_dir/ntu120/csub/lagcn_bone --joint-motion-dir work_dir/ntu120/csub/lagcn_motion --bone-motion-dir work_dir/ntu120/csub/lagcn_bone_motion
+python ensemble.py --datasets ntu120/xsub --joint work_dir/ntu120/xsub/j.pkl --bone work_dir/ntu120/xsub/b.pkl --joint-motion work_dir/ntu120/xsub/jm.pkl --bone-motion work_dir/ntu120/xsub/bm.pkl
+# Ensemble six modalities of LAGCN on NTU RGB+D 120 cross subject
+python ensemble_6s.py --datasets ntu120/xsub --joint work_dir/ntu120/xsub/j.pkl --bone work_dir/ntu120/xsub/b.pkl --joint-motion work_dir/ntu120/xsub/jm.pkl --bone-motion work_dir/ntu120/xsub/bm.pkl --prompt work_dir/ntu120/xsub/p2.pkl --prompt2 work_dir/ntu120/xsub/p5.pkl
 ```
 
 ### Pretrained Models
 
-Comming soon.
+Pretrained weights and validation set inference results are provided in the [link](https://drive.google.com/file/d/1Yz86jwjj_EAeqf8-KVBPsM9lVQWz-mCM/view?usp=drive_link) and [link](https://drive.google.com/file/d/1fOfhQGV8N6kJvGAmD02Kyigs58Ytrie0/view?usp=drive_link) respectively.
+
+
+The performance of NW-UCLA dataset is slightly different from the article table. The reason is that the MHA-GC used in NW-UCLA experiment is the numerical approximation version (Fig. 7b right). We will modify the relevant table of artivle in next version.
 
 ## Acknowledgements
 
