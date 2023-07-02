@@ -118,7 +118,7 @@ python ensemble_6s.py --datasets ntu120/xsub --joint work_dir/ntu120/xsub/j.pkl 
 Pretrained weights and validation set inference results are provided in the [link](https://drive.google.com/file/d/1Yz86jwjj_EAeqf8-KVBPsM9lVQWz-mCM/view?usp=drive_link) and [link](https://drive.google.com/file/d/1fOfhQGV8N6kJvGAmD02Kyigs58Ytrie0/view?usp=drive_link) respectively.
 
 
-The performance of NW-UCLA dataset is slightly different from the article table. The reason is that the MHA-GC used in NW-UCLA experiment is the numerical approximation version (Fig. 7b right). We will modify the relevant table of artivle in next version.
+The performance of NW-UCLA dataset is slightly different from the article table. The reason is that the MHA-GC used in NW-UCLA experiment is the numerical approximation version (Fig. 7b right). We will modify the relevant table of the article in the next version.
 
 ## Acknowledgements
 
